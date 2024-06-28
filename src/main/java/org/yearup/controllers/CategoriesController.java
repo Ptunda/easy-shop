@@ -48,7 +48,6 @@ public class CategoriesController
     }
 
     // add the appropriate annotation for a get action
-    //TODO deal with category possibly null
 
     @GetMapping("{id}")
     @PreAuthorize("permitAll()")
