@@ -1,6 +1,7 @@
 package org.yearup.data.mysql;
 
 import org.springframework.stereotype.Component;
+import org.yearup.models.Order;
 import org.yearup.models.Product;
 import org.yearup.data.ProductDao;
 
@@ -16,6 +17,11 @@ public class MySqlProductDao extends MySqlDaoBase implements ProductDao {
     public MySqlProductDao(DataSource dataSource) {
 
         super(dataSource);
+
+    }
+
+    @Override
+    public void create(Order order) {
 
     }
 
