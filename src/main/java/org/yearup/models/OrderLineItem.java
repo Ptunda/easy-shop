@@ -50,6 +50,5 @@ public class OrderLineItem {
         this.price = price;
     }
 
-    // Getters and setters
 
 }
